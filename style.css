@@ -1,3 +1,23 @@
+@media only screen and (min-width: 992px) {
+  .slider {
+    height: 100vh;
+  }
+
+  .slider-content > h1 {
+    font-size: 3.8rem !important;
+  }
+
+  .slider-content > p {
+    font-size: 1.3rem !important;
+  }
+
+  .slider-content > button,
+  .slogan-content > button,
+  .download-content > button {
+    padding: 1.2rem 1.8rem !important;
+  }
+}
+
 .slider {
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
   background-repeat: no-repeat;
@@ -66,8 +86,9 @@
   border: none;
 }
 
-.download-content > button:hover {
-  background-color: #ccc;
+.download-content > button:hover,
+.slogan-content > button:hover {
+  background-color: #ccc !important;
 }
 
 .form-group > label {
