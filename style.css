@@ -1,0 +1,104 @@
+.slider {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-content > button {
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.slider-content > button:hover {
+  background-color: #cf5331 !important;
+}
+
+.navbar > ul > li > a,
+.navbar > a {
+  transition: all ease-in-out 0.2s;
+}
+
+.navbar > ul > li:hover > a,
+.navbar > a:hover {
+  color: #fff !important;
+}
+
+.active {
+  color: #cf5331 !important;
+}
+
+.gallery .img-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery .img-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(231, 84, 43, 0.925) !important;
+  transition: all ease-in-out 0.2s;
+}
+
+.gallery .img-box:hover > .img-content {
+  opacity: 0.9;
+}
+
+.gallery .img-content > p {
+  font-weight: 600;
+}
+
+.gallery img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.download-content > button {
+  border: none;
+}
+
+.download-content > button:hover {
+  background-color: #ccc;
+}
+
+.form-group > label {
+  left: 0.8rem;
+  top: -0.2rem;
+}
+
+.form-group > input,
+.form-group > label {
+  font-size: 1.2rem;
+}
+
+.form-group > .invalid-feedback {
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    background-color: #fff !important;
+  }
+
+  .navbar > a {
+    color: #000 !important;
+  }
+
+  .navbar > ul > li > a {
+    color: #000 !important;
+  }
+
+  .navbar > ul > li:hover > a,
+  .navbar > a:hover {
+    color: #cf5331 !important;
+  }
+}
